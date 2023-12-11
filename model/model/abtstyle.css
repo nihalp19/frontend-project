@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #1B1212;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM+Sans',sans-serif;
+}
+
+.heading2{
+    text-align: center;
+    color: #F88379;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 60px;
+    margin-top: 5%;
+}
+
+
+.para2{
+    text-align: center;
+    color: #7b7b7b;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    font-family: 'DM+Sans',sans-serif;
+}
+
+.para4{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    font-family: 'DM SANS', sans-serif;
+}
+
+.para7{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'DM SANS', sans-serif;
+    font-size:17px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.para3{
+    text-align: justify;
+    color:#F88379;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para5{
+    text-align: justify;
+    color:#7b7b7b;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.lowerdiv{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    padding-right: 8%;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+a{text-decoration: none;}
+
+.imgtext{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 50%;
+    top: 7%;
+}
+
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    
+}
+
+.navbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+
+.navbar a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+.logo{
+    padding-left: 8%;
+    padding-top: 3%;
+    font-size: 32px;
+    color: white;
+    
+}
+
+
+.logo:hover{
+    color: #F88379;
+    transition: all ease-in-out;
+    transition-duration: .5s;
+}
+
+
+.img11{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    position: relative;
+    
+    width: 100%;
+}
+
+.imglap{
+    position: relative;
+    width: 530px;
+    height: 600px;
+    left: 10%;
+}
+
+
+.over1{
+    position: absolute;
+    top: 0;
+    left: 3%;
+    width: 200px;
+    height: 210px;
+}
+
+.over2{
+    position: absolute;
+    right: 0;
+    top: 7%;
+    width: 300px;
+    height: 500px;
+    margin-left: 14%;
+}
+
+.over3{
+    position: absolute;
+    width: 210px;
+    height: 300px;
+    margin-top: 57%;
+    margin-left: 15%;
+}
+
+.footback{
+    min-height: 70vh;
+    background-image: url('aboutpics/footback.jpeg');
+    background-position: top;
+    background-size: cover;
+    opacity: 2;
+    background-repeat: no-repeat;
+}
+
+
+.black{
+    min-height: 70vh;
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.foottext{
+    margin-left:26%; 
+    margin-right:26%;
+    background-color: transparent;
+}
+
+.footer{
+    min-height: 30vh;
+    background-color: black;
+    font-family: 'DM+Sans',sans-serif;
+}
+
+

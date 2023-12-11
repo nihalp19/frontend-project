@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #1B1212;
+    text-decoration: none;
+}
+
+.subheading {
+    text-align: center;
+    color: #F88379;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 60px;
+    margin-top: 5%;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 336px 336px 336px 336px;
+    grid-template-rows: 420px 420px 420px 420px;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-top: 6rem;
+
+}
+
+.imgtxt {
+    display: inline-block;
+    background-color: #343434;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgtxt a {
+    background-color: #343434;
+}
+
+img {
+    width: 336px;
+    height: 420px;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM+Sans', sans-serif;
+}
+
+.logo {
+    padding-left: 8%;
+    padding-top: 3%;
+    font-size: 32px;
+    color: white;
+
+}
+
+.logo:hover {
+    color: #F88379;
+    transition: all ease-in-out;
+    transition-duration: .5s;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    padding-right: 8%;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+
+}
+
+.navbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+
+.navbar a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.images a {
+    display: inline-block;
+    color: #F88379;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+
+.footer {
+    min-height: 30vh;
+    background-color: black;
+    font-family: 'DM+Sans', sans-serif;
+}
