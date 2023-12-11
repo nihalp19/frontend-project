@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo a {
+    margin-left: 14rem;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00AB66;
+}
+
+ul li a {
+    color: #00AB66;
+}
+
+ul li a:hover {
+    background-color: #00AB66;
+    color: #fff;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.Sign-Up {
+    margin-right: 7rem;
+}
+
+.main-content {
+    min-height: 100vh;
+    background: linear-gradient(to left, transparent, #fff),
+        url("home-hero-1.webp");
+    background-position: top;
+    background-size: cover;
+}
+
+.para1 {
+    font-size: 60px;
+}
+
+.para2 {
+    font-size: 60px;
+}
+
+
+.para3 {
+    margin-bottom: 1rem;
+}
+
+.written {
+    padding: 6rem;
+    width: 550px;
+    height: 400px;
+    margin-left: 10rem;
+}
+
+#btn1 {
+    background-color: #00AB66;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+}
+
+.about-us {
+    min-height: 100vh;
+    margin-bottom: 5rem;
+}
+
+.about-uss {
+    margin-top: 6rem;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    color: #00AB66;
+}
+
+.para4 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+.support-impact {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 240px 240px;
+    grid-column-gap: 5rem;
+    grid-row-gap: 3rem;
+}
+
+.para5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.support-artist {
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 2px #b9b6b6;
+}
+
+.Social-Impact {
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 2px #b9b6b6;
+}
+
+.Promote-Art {
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 2px #b9b6b6;
+}
+
+.Art-Auction {
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 2px #b9b6b6;
+}

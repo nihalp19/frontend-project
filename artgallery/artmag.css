@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eceaea;
+}
+
+ul li a {
+    color: #00AB66;
+}
+
+ul li a:hover {
+    background-color: #00AB66;
+    color: #fff;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.head {
+    color: #00AB66;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px #a8a5a5;
+    border-bottom: 1px solid rgb(227, 220, 220);
+}
+
+.links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.Sign-Up {
+    margin-right: 7rem;
+}
+
+.logo a {
+    margin-left: 14rem;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00AB66;
+}
+
+
+
+.img-2 {
+    width: 330px;
+    height: 220px;
+}
+
+.para3 {
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #fff;
+}
+
+.para2 {
+    font-size: small;
+    color: #5b5858;
+    padding-top: 0.5rem;
+    background-color: #fff;
+}
+
+.written {
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+
+.box {
+    width: 330px;
+    background-color: #fff;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 1px 1px rgb(181, 178, 178);
+}
+
+.boxes {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 440px 440px 440px;
+    grid-row-gap: 1.5rem;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 210px;
+    height: 270px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 390px 390px 390px;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+}
+
+ul li a {
+    color: #00AB66;
+}
+
+ul li a:hover {
+    background-color: #00AB66;
+    color: #fff;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px #a8a5a5;
+    border-bottom: 1px solid rgb(227, 220, 220);
+}
+
+.links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.Sign-Up {
+    margin-right: 7rem;
+}
+
+.logo a {
+    margin-left: 14rem;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00AB66;
+}
+
+.art-store {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #00AB66;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
+
+.buy {
+    background-color: #00AB66;
+    color: #fff;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    margin-left: 5.2rem;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.boxes div {
+    box-shadow: 2px 2px 2px 2px #d7d4d4;
+    padding: 1rem;
+}
